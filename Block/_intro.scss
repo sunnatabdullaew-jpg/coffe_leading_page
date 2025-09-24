@@ -1,0 +1,47 @@
+.intro {
+  padding: 50px;
+  background-image: url(/images/Bitmap.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin-top: 30px;
+  &__title {
+    font-family: "Fraunces 9pt";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    /* or 100% */
+    width: 600px;
+    color: #fefcf7;
+  }
+  &__text {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    width: 370px;
+    color: #fefcf7;
+
+    opacity: 0.8;
+  }
+  &__button {
+    width: 217px;
+
+    height: 56px;
+    background-color: rgb(68, 227, 233);
+    color: azure;
+    font-size: larger;
+    font-weight: 700;
+    border-radius: 15px;
+    border: none;
+  }
+  &__button:hover{
+    transition: all 2s ease;
+     transform: scale(1.2);
+  }
+}
