@@ -11,6 +11,11 @@
     /* identical to box height, or 120% */
     color: #fefcf7;
   }
+  &__cards{
+    position: relative;
+    top: -1500px;
+    left: -730px;
+  }
   &__text {
     font-family: "Barlow";
     font-style: normal;

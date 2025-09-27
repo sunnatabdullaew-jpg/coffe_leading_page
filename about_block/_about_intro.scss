@@ -1,0 +1,32 @@
+.about__intro{
+  padding: 50px;
+  background-image: url(../images_2/coffe.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 10px;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin-top: 30px;
+
+&__title{
+    margin-top: 30px;
+font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 48px;
+color: #ffffff;
+}
+&__text{
+ width: 500px;
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #FEFCF7;
+}
+
+}

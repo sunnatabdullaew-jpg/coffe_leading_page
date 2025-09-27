@@ -1,0 +1,49 @@
+.progress__about {
+  width: 1280px;
+  display: flex;
+  margin-top: 250px;
+  justify-content: space-between;
+  background-color: rgb(21, 21, 48);
+  border-radius: 10px;
+  &__texts {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 540px;
+    height: 130px;
+    margin-left: 80px;
+    margin-top: 70px;
+  }
+  &__picture {
+    position: relative;
+    top: -120px;
+    left: -60px;
+  }
+  &__coffe{
+    border: none;
+  }
+  &__title {
+    font-family: "Fraunces 9pt";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    /* identical to box height, or 120% */
+
+    color: #fefcf7;
+  }
+  &__text {
+    /* Although we work wit */
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+    color: #fefcf7;
+
+    mix-blend-mode: normal;
+    opacity: 0.8;
+  }
+}
