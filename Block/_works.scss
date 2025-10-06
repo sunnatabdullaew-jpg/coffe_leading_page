@@ -93,6 +93,7 @@
 
   }
   .button{
+    border: none;
     width: 217px;
     height: 56px;
     background-color: rgba(14, 135, 132, 1);
@@ -106,4 +107,18 @@
     transition: all 1s ease-in-out;
     transform: scale(1.2);
   }
+}
+@media only screen and (max-width:700px){
+   .works {
+    margin-top: 250px;
+    display: flex;
+    flex-direction: column;
+    
+    &__items {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+    }
+}
 }

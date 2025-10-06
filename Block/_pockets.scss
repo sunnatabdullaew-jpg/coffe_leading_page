@@ -44,3 +44,13 @@
   align-items: center;
   gap: 25px;
 }
+@media only screen and (max-width:700px){
+  .pockets{
+    &__cards{
+      flex-direction: column; 
+    }
+    &__img{
+      display: none;
+    }
+  }
+}

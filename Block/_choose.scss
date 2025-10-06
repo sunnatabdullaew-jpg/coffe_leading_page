@@ -11,7 +11,7 @@
     /* identical to box height, or 120% */
     color: #fefcf7;
   }
-  &__cards{
+  &__cards-box{
     position: relative;
     top: -1500px;
     left: -730px;
@@ -115,5 +115,39 @@
   }
   &__img__1:hover{
     transform: rotate(2.0);
+  }
+}
+@media only screen and (max-width:700px) {
+  .choose{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 900px;
+
+    &__cards-box{
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      top: 0px;
+      left: 0px;
+    }
+    &__card__2{
+      left: 50px;
+      top:1060px;
+    }
+    &__card__3 {
+      left: 50px;
+      top:600px;
+    }
+    &__card {
+      left: 50px;
+      top:150px;
+    }
+    &__texts {
+      width: 100%;
+      padding: 40px 20px;
+      margin-left: 1px !important;
+      margin-top: 1px;
+    }
   }
 }
