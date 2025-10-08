@@ -2,6 +2,7 @@
   background-color: rgb(13, 13, 34);
   height: 600px;
   border-radius: 20px;
+  margin-top: 100px;
 
   &__title {
     font-family: "Fraunces 9pt";
@@ -144,7 +145,6 @@
       top:150px;
     }
     &__texts {
-      width: 100%;
       padding: 40px 20px;
       margin-left: 1px !important;
       margin-top: 1px;

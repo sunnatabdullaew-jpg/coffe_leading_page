@@ -50,7 +50,7 @@
   .intro {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: start;
     &__title {
       font-family: "Fraunces 9pt";
       font-style: normal;
@@ -58,8 +58,7 @@
       font-size: 40px;
       line-height: 40px;
       /* or 100% */
-      text-align: center;
-      width: 100%;
+      width: 374px;
       color: #fefcf7;
     }
     &__text {
@@ -69,7 +68,6 @@
       font-size: 15px;
       line-height: 25px;
       /* or 167% */
-      text-align: center;
 
       color: #fefcf7;
 
