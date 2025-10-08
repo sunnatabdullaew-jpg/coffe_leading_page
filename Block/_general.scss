@@ -18,3 +18,8 @@ li{
     margin: auto;
     width: 1200px;
 }
+@media only screen and (max-width:500px){
+    .container{
+        width: 90%;
+    }
+}

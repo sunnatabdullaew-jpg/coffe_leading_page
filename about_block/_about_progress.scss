@@ -44,6 +44,41 @@
     color: #fefcf7;
 
     mix-blend-mode: normal;
-    opacity: 0.8;
+  }
+}
+@media only screen and (max-width:500px){
+  .progress__about{
+    width: 90%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 150px;
+    justify-content: center;
+
+    &__coffe{
+      width: 279px;
+      height: 200px;
+      margin-left: 140px;
+      border-radius: 10px;
+    }
+    &__text{
+      width: 279px;
+      height: 226px;
+    }
+    &__title{
+      width: 279px;
+      height: 56px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    &__texts{
+      width: 279px;
+    }
+    &__picture{
+      top: -420px;
+    }
   }
 }

@@ -1,8 +1,7 @@
 .continents__about {
   width: 1250px;
   margin-top: 150px;
-  margin-left: 100px;
-
+  margin-bottom: 100px;
   &__title__1 {
     font-family: "Fraunces 9pt";
     font-style: normal;
@@ -31,7 +30,11 @@
   &__card {
     display: flex;
     flex-direction: column;
-    align-items: start;
+    gap: 20px;
+  }
+  &__card__1 {
+    display: flex;
+    flex-direction: column;
     gap: 20px;
   }
   &__cards {
@@ -49,4 +52,22 @@
 
     color: #333d4b;
   }
+}
+@media only screen and (max-width:500px){
+    .continents__about{
+      width: 90%;
+
+    &__cards{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    &__title__1{
+      margin-left: 100px;
+    }
+    &__card__1{
+      margin-left: 130px;
+    }
+    }
 }

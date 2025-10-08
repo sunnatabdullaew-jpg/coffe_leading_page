@@ -30,3 +30,13 @@ color: #FEFCF7;
 }
 
 }
+@media only screen and (max-width:500px){
+  .about__intro{
+    background-size: cover;
+    padding: 100px;
+
+    &__text{
+      width: 300px;
+    }
+  }
+}

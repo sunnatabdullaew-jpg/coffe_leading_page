@@ -31,3 +31,10 @@
     flex-direction: column;
   }
 }
+@media only screen and (max-width:500px){
+  .contimment__about{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+  }
+}
