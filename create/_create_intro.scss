@@ -30,3 +30,14 @@ color: #FEFCF7;
 }
 
 }
+
+@media only screen and (max-width:500px){
+  .create__intro{
+    width: 90%;
+    background-size: cover;
+
+    &__text{
+      width: 250px;
+    }
+  }
+}

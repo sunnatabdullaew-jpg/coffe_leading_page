@@ -14,3 +14,12 @@ li{
     width: 100%;
     padding: 5px 10px;
 }
+.container{
+    margin: auto;
+    width: 1200px;
+}
+@media only screen and (max-width:500px){
+    .container{
+        width: 90%;
+    }
+}

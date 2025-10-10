@@ -8,3 +8,11 @@
     justify-content: center;
     background-color: rgb(4, 4, 37);
 }
+@media only screen and (max-width:500px){
+    .works_2{
+        width: 90%;
+        height: 90%;
+        align-items: start;
+        justify-content: start;
+    }
+}
