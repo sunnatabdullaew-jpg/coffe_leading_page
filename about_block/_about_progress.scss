@@ -48,7 +48,7 @@
 }
 @media only screen and (max-width:500px){
   .progress__about{
-    width: 90%;
+    width: 95%;
     height: 600px;
     display: flex;
     flex-direction: column;
@@ -63,12 +63,10 @@
       border-radius: 10px;
     }
     &__text{
-      width: 279px;
-      height: 226px;
+      width: 250px;
     }
     &__title{
-      width: 279px;
-      height: 56px;
+      width: 220px;
       display: flex;
       flex-direction: column;
       align-items: center;
